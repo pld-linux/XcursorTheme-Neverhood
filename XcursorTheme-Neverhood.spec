@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A plasticine looking cursor theme with a really wobbly feel.
 
 %description -l pl
-Motyw kursorów o nietypowym plastelinowym wygladzie. Sprawia wra¿enie
+Motyw kursorów o nietypowym plastelinowym wygl±dzie. Sprawia wra¿enie
 jakoby kursory chwia³y sie.
 
 %prep
