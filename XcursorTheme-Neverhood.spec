@@ -2,7 +2,7 @@ Summary:	A cursor theme based on cursors from The Neverhood game
 Summary(pl):	Motyw kursorów oparty na kursorach z gry The Neverhood
 Name:		XcursorTheme-Neverhood
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Themes
 Source0:	http://www.kde-look.org/content/files/11359-neverhoodDesktop.tar.gz
@@ -27,10 +27,6 @@ jakoby kursory chwia³y sie.
 cd neverhoodCursor/src
 %{__make} \
 	COLOR=Pink
-%{__make} \
-	COLOR=Yellow
-%{__make} \
-	COLOR=Orange
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -38,17 +34,9 @@ cd neverhoodCursor/src
 %{__make} install \
 	COLOR=Pink \
 	INSTALLDIR=$RPM_BUILD_ROOT%{_iconsdir}/neverhoodPink/cursors
-%{__make} install \
-	COLOR=Yellow \
-	INSTALLDIR=$RPM_BUILD_ROOT%{_iconsdir}/neverhoodYellow/cursors
-%{__make} install \
-	COLOR=Orange \
-	INSTALLDIR=$RPM_BUILD_ROOT%{_iconsdir}/neverhoodOrange/cursors
-
+	
 Z="`/bin/pwd`"
-colors="Yellow \
-Pink \
-Orange"
+colors="Pink"
 for i in $colors;
 do
 cd $RPM_BUILD_ROOT%{_iconsdir}/neverhood$i/cursors
