@@ -34,7 +34,7 @@ cd neverhoodCursor/src
 %{__make} install \
 	COLOR=Pink \
 	INSTALLDIR=$RPM_BUILD_ROOT%{_iconsdir}/neverhoodPink/cursors
-	
+
 Z="`/bin/pwd`"
 colors="Pink"
 for i in $colors;
