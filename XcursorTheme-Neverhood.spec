@@ -1,5 +1,5 @@
 Summary:	A cursor theme based on cursors from The Neverhood game
-Summary(pl.UTF-8):   Motyw kursorów oparty na kursorach z gry The Neverhood
+Summary(pl.UTF-8):	Motyw kursorów oparty na kursorach z gry The Neverhood
 Name:		XcursorTheme-Neverhood
 Version:	1.0
 Release:	2
