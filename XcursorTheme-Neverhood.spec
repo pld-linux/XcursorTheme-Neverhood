@@ -1,5 +1,5 @@
 Summary:	A cursor theme based on cursors from The Neverhood game
-Summary(pl):	Motyw kursorów oparty na kursorach z gry The Neverhood
+Summary(pl.UTF-8):   Motyw kursorÃ³w oparty na kursorach z gry The Neverhood
 Name:		XcursorTheme-Neverhood
 Version:	1.0
 Release:	2
@@ -16,9 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A plasticine looking cursor theme with a really wobbly feel.
 
-%description -l pl
-Motyw kursorów o nietypowym plastelinowym wygl±dzie. Sprawia wra¿enie
-jakoby kursory siê chwia³y.
+%description -l pl.UTF-8
+Motyw kursorÃ³w o nietypowym plastelinowym wyglÄ…dzie. Sprawia wraÅ¼enie
+jakoby kursory siÄ™ chwiaÅ‚y.
 
 %prep
 %setup -q -n neverhoodDesktop
